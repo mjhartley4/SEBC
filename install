@@ -13,6 +13,7 @@ ip link show
 #Install NTP#
 yum install ntp ntpdate ntp-doc
 chkconfig ntpd on
+ntpdate pool.ntp.org
 #Install NSCD#
 yum install nscd
 chkconfig nscd on

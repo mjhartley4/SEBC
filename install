@@ -71,7 +71,7 @@ pid-file=/var/run/mariadb/mariadb.pid
 
 sudo yum install wget
 sudo wget https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/cloudera-manager.repo
-cp cloudera-manager.repo /etc/yum.repos.
+cp cloudera-manager.repo /etc/yum.repos.d/
 yum update
 sudo wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.42.tar.gz
 tar zxvf mysql-connector-java-5.1.42.tar.gz
